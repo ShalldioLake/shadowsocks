@@ -21,7 +21,10 @@
 * 访问 `chrome://extensions/`，请使用 Chrome 浏览器复制粘贴输入地址栏并回车访问。
 
 * 在 [Github](https://github.com/FelisCatus/SwitchyOmega/releases) 下载 SwitchyOmega.crx 文件并拖移入`chrome://extensions/` 。
-
+ubuntu 系统下chrome 出现Packages  is invalid:'CRX_HEADER_INVALID'.
+Proxy SwitchyOmega 的.crx文件无法直接导入chrome://extensions 
+报错如下：Packages  is invalid:'CRX_HEADER_INVALID'.
+解决办法：使用Archive Manager解压.crx文件之后通过 Load unpacked 导入文件路径。
 ![使用Guthub](files/images/bro-chrome-useGithub.png)
 
 ## 扩展的配置
